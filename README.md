@@ -2,7 +2,7 @@
 
 This project demonstrates the use of [react-freeze](https://github.com/software-mansion/react-freeze) in an Expo application, specifically targeting Fire OS devices.
 
-![React Freeze Test App Screenshot](./assets/screenshots/app-screenshot.png)
+![fire_tablet_screenshot_20250507_091555](https://github.com/user-attachments/assets/71ce4e76-7a2d-4caa-b182-8c416f991243)
 *Screenshot: The app running on a Fire OS device showing the freeze functionality*
 
 ## What is React Freeze?
