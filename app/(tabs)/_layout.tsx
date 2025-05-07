@@ -40,6 +40,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="freeze-test"
+        options={{
+          title: 'Freeze Test',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="snowflake" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }

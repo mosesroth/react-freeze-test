@@ -2,9 +2,6 @@
 
 This project demonstrates the use of [react-freeze](https://github.com/software-mansion/react-freeze) in an Expo application, specifically targeting Fire OS devices.
 
-![React Freeze Test App Screenshot](./assets/screenshots/app-screenshot.png)
-*Screenshot: The app running on a Fire OS device showing the freeze functionality*
-
 ## What is React Freeze?
 
 React Freeze is a library that allows you to "freeze" React components, preventing them from re-rendering while preserving their state. This is particularly useful for:
@@ -13,40 +10,10 @@ React Freeze is a library that allows you to "freeze" React components, preventi
 - Optimizing offscreen or hidden components
 - Reducing battery consumption on mobile devices
 
-## Features
-
-- Toggle freezing/unfreezing of components
-- Show/hide components to test visibility changes
-- Performance demonstration with an "expensive" component
-- Counter that updates every second to visualize freezing effect
-
 ## Project Structure
 
 - `components/FreezeTest.tsx`: Main component demonstrating react-freeze functionality
 - `app/(tabs)/freeze-test.tsx`: Tab screen that displays the FreezeTest component
-
-## Running the App
-
-### Prerequisites
-
-1. Node.js and npm installed
-2. Expo CLI: `npm install -g expo-cli`
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/mosesroth/react-freeze-test.git
-
-# Navigate to project directory
-cd react-freeze-test
-
-# Install dependencies
-npm install
-
-# Start the development server
-npx expo start
-```
 
 ## Running on Fire Tablet
 
@@ -109,11 +76,3 @@ The implementation uses the `Freeze` component from react-freeze:
 ```
 
 When `isFrozen` is true, the component's render tree is preserved but not re-rendered, saving valuable resources.
-
-## License
-
-MIT
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
